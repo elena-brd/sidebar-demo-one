@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #333;
+}
+
+
+.sidenavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 0;
+    background: #1e1e1e;
+    overflow-x: hidden;
+    transition: all 0.5s ease-in;
+}
+
+.sidenavbar a {
+    text-decoration: none;
+    padding: 1rem 1rem 1rem 2.8rem;
+    display: block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+.sidenavbar a:nth-of-type(2) {
+    padding-top: 5rem;
+}
+
+.sidenavbar a:hover,
+i:hover {
+    cursor: pointer;
+    color: #ff9501;
+}
+
+.sidenavbar .close-btn {
+    position: absolute;
+    top: 0;
+    right: 1.2rem;
+    font-size: 2.5rem;
+    text-decoration: none;
+
+}
+
+i {
+    color: #f4f4f4;
+    background: #1e1e1e;
+    padding: 2rem;
+}
+
+.open-btn {
+    transition: all 04s ease-in;
+}
